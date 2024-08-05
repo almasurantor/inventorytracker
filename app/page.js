@@ -180,7 +180,7 @@ export default function Home() {
       </Box>
     
       <Box mt={4}>
-        <Typography variant="h4">Upload Image to Detect Item:</Typography> 
+        <Typography variant="h4">Upload a Image to Detect Item:</Typography> 
         <input type="file" accept="image/*" onChange={handleImageChange} />
         {selectedImage && (
           <Box mt={2} textAlign="center">
